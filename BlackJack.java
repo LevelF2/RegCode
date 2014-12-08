@@ -37,7 +37,7 @@ public class BlackJack {
         if (dealerTotal > 21){  
             System.out.println();
             System.out.println("Dealers total is " + dealerTotal + ".");
-            System.out.println("Dealer is bust, you win!");
+            System.out.println("Dealer busted, you win!");
             System.exit(0);
         }
         if (dealerTotal == 21){  
@@ -69,7 +69,7 @@ public class BlackJack {
                     System.out.println();
                     cc++;   
                     if (playerTotal > 21){
-                        System.out.println("You are bust, You lose.");
+                        System.out.println("You busted, loser.");
                         System.exit(0);
                     }
                     if (playerTotal == 21){
@@ -100,7 +100,7 @@ public class BlackJack {
 
             if (dealerTotal > 21){
                 System.out.println();
-                System.out.println("Dealer is bust, YOU WIN!");
+                System.out.println("Dealer busted, YOU WIN!");
                 System.exit(0);
             }
 
